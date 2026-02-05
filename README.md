@@ -7,4 +7,4 @@
 
 Using this text corpus, I train a relatively simple k-th order Markov model that allows for probabilistic speaker attribution. While I have primarily adopted my Markov model algorithm from a previous project/assignment I wrote [^1], I am excited to see if these NLP techniques previously trained on an English language corpus will be salient for a Mandarin Chinese corpus. 
 
-[^1] A similar version of the model I wrote can be found here: https://www.cs.princeton.edu/courses/archive/spr08/cos226/assignments/markov.html
+[^1]: A similar version of the model I wrote can be found here: https://www.cs.princeton.edu/courses/archive/spr08/cos226/assignments/markov.html
