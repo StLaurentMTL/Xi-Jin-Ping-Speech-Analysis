@@ -3,13 +3,22 @@ name = "xijinpin-talks"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
     "cssselect>=1.4.0",
     "hanzinlp>=0.1.0",
     "httpx>=0.28.1",
+    "ipykernel>=7.1.0",
+    "jupyterlab>=4.5.3",
     "lxml>=6.0.2",
+    "matplotlib>=3.10.8",
     "numpy>=2.3.5",
     "pandas>=2.3.3",
     "ruff>=0.14.10",
+    "wordcloud>=1.9.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
 ]
