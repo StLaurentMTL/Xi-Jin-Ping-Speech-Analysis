@@ -6,6 +6,7 @@ def k_tokens(text, k, idx):
     return text[idx : idx + k], text[idx : idx + k + 1]
 
 class Markov:
+    
     def __init__(self, k: int, text: str):
         """
         Constructs a new k-order markov model using provided text
