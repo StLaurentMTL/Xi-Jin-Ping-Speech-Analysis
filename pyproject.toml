@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "chatterbot>=1.2.13",
     "cssselect>=1.4.0",
     "hanzinlp>=0.1.0",
     "httpx>=0.28.1",
@@ -16,6 +17,7 @@ dependencies = [
     "pandas>=2.3.3",
     "pyldavis>=3.4.1",
     "ruff>=0.14.10",
+    "tensorflow>=2.21.0",
     "wordcloud>=1.9.6",
 ]
 

@@ -1,6 +1,5 @@
 import math
 
-
 def k_tokens(text, k, idx):
 
     return text[idx : idx + k], text[idx : idx + k + 1]
@@ -16,6 +15,7 @@ class Markov:
         self._tokens = {}
 
         # Prewrapping text
+
         text_circular = text + text[0:k + 1]
 
         for idx, _ in enumerate(text):
